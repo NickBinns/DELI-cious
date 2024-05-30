@@ -1,0 +1,3 @@
+Sandwich: WHITESMALL[steak][][american][]true[peppers, onions][], Price: 9.55
+Drink: CokeMEDIUM, Price: 2.5
+Total Price: 12.05

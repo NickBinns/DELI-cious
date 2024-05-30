@@ -1,0 +1,2 @@
+Sandwich: WHITESMALL[steak][][american][]true[letuce][], Price: 8.55
+Total Price: 8.55

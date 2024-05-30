@@ -1,0 +1,2 @@
+Sandwich: WHEATSMALL[chicken][][american][]false[lettuce][], Price: 8.55
+Total Price: 8.55

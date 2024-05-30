@@ -1,0 +1,2 @@
+Sandwich: WHITE[Steak], Price: 6.5
+Total Price: 6.5

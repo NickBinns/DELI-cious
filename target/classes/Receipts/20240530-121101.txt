@@ -1,0 +1,2 @@
+Sandwich: WHITESMALL[steak][steak][][]false[lettuce][], Price: 10.05
+Total Price: 10.05

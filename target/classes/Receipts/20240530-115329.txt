@@ -1,0 +1,2 @@
+Sandwich: WHITESMALL[steak][][swiss][]false[lettuce][], Price: 9.55
+Total Price: 9.55

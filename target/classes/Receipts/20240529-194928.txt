@@ -1,0 +1,4 @@
+Sandwich: WHITE[Steak], Price: 8.5
+Drink: Coke, Price: 2.5
+Chips: SMALL, Price: 1.5
+Total Price: 12.5

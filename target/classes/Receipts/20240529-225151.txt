@@ -1,0 +1,3 @@
+Sandwich: WHITEMEDIUM[Steak][Chicken]truetruetrue[lettuce, peppers, cucumbers, guacamole][], Price: 14.0
+Drink: SpriteMEDIUM, Price: 2.5
+Total Price: 16.5
