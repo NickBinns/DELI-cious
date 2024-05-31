@@ -1,4 +1,5 @@
 Hello and welcome to my second capstone project. Here I will explain my project along with some of my code and show some pictures of my application. This project is a deli appilcation called DELI-cious. The purpose of this app is that a user can create a sandwich inside of the app by selecting many options such as bread type, bread size and choice of meat and many more options. They can also add chips and a drink if they like. I will be showing some pictures of how everything works along with some line of code as well.
+
 This picture below is my home screen which is simply asking the user if they want to create a new order or exit the application. The code is running from line 9-30 in my user interface class.
 ![deliHomeScreen](https://github.com/NickBinns/DELI-cious/assets/166635288/d7d76024-5a44-4cf6-b4cb-bfc52d4323fe)
 
