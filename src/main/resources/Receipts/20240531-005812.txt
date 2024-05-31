@@ -1,0 +1,3 @@
+Sandwich: WRAP, Size: MEDIUM, Premium Toppings :[chicken], Extra Toppings: [], Cheese: [colby jack], Extra Cheese: [], Toasted: false, Regular Toppings: [lettuce, peppers, onions], Sauces: [mayo, aioli], Price: 10.05
+Drink: Coke, Size: LARGE, Price: 3.0
+Total Price: 13.05

@@ -16,7 +16,15 @@ public class DrinkCreator {
         String drinkType = drinkTypes[drinkChoice - 1];
 
         // Choose drink size
-        System.out.println("Choose the drink size: (1. Small, 2. Medium, 3. Large)");
+        System.out.println("""
+                -------------------------
+                Choose your drink size:
+                1. Small
+                2. Medium
+                3. Large
+                --------------------------
+                """);
+        System.out.print("Enter your choice: ");
         int drinkSizeChoice = scanner.nextInt();
         DrinkSize drinkSize = DrinkSize.values()[drinkSizeChoice - 1];
 

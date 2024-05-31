@@ -1,0 +1,2 @@
+Sandwich: WHEAT, Size: SMALL, Premium Toppings :[steak], Extra Toppings: [], Cheese: [swiss], Extra Cheese: [], Toasted: false, Regular Toppings: [lettuce], Sauces: [aioli], Price: 8.55
+Total Price: 8.55

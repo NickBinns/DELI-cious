@@ -27,13 +27,13 @@ enum Size {
             // Calculate price based on size
             switch (size) {
                 case SMALL:
-                    basePrice -= 0; // Small sandwich discount
+                    basePrice -= 0; // Small sandwich
                     break;
                 case MEDIUM:
-                    basePrice += 1.5; // Medium sandwich surcharge
+                    basePrice += 1.5; // Medium sandwich
                     break;
                 case LARGE:
-                    basePrice += 3; // Large sandwich surcharge
+                    basePrice += 3; // Large sandwich
                     break;
             }
 

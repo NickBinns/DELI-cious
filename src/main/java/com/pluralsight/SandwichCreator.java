@@ -9,17 +9,45 @@ public class SandwichCreator {
     public static void createSandwich(Order order) {
 
         // Choose bread
-        System.out.println("Choose your bread: (1. White, 2. Wheat, 3. Rye, 4. Wrap)");
+        System.out.println("""
+                --------------------
+                Select your bread:
+                1. White
+                2. Wheat
+                3. Rye
+                4. Wrap
+                --------------------
+                """);
+        System.out.print("Enter here: ");
         int breadChoice = userChoice.nextInt();
         Bread bread = Bread.values()[breadChoice - 1];
 
         // Choose size
-        System.out.println("Choose the size: (1. Small , 2. Medium, 3. Large)");
+        System.out.println("""
+                -------------------------
+                Select your bread size:
+                1. Small
+                2. Medium
+                3. Large
+                -------------------------
+                """);
+        System.out.print("Enter here:");
         int sizeChoice = userChoice.nextInt();
         Size size = Size.values()[sizeChoice - 1];
 
         // Choose premium toppings
-        System.out.println("Enter one of premium toppings (steak, ham, salami, roast beef, chicken, bacon):");
+        System.out.println("""
+                -------------------------------------
+                Enter one of the premium toppings:
+                steak
+                ham
+                salami
+                roast beef
+                chicken
+                bacon
+                --------------------------------------
+                """);
+        System.out.print("Enter your choice: ");
         userChoice.nextLine();
         String premiumToppingsInput = userChoice.nextLine();
         String[] premiumToppingsArray = premiumToppingsInput.split(",");
@@ -43,7 +71,17 @@ public class SandwichCreator {
         }
 
         // Choose cheese
-        System.out.println("Enter your choice of cheese (american, provolone, cheddar, swiss):");
+        System.out.println("""
+                ------------------------
+                Select your cheese:
+                american
+                provolone
+                cheddar
+                swiss
+                colby jack
+                ------------------------
+                """);
+        System.out.print("Enter your choice: ");
         userChoice.nextLine();
         String cheeseInput = userChoice.nextLine();
         String[] cheeseOption = cheeseInput.split(",");
@@ -51,6 +89,7 @@ public class SandwichCreator {
         for (String cheese : cheeseOption) {
             cheeseList.add(cheese.trim());
         }
+
             // Choose extra cheese
             System.out.println("Do you want extra cheese? (Y/N)");
             char extraCheeseChoice = userChoice.next().charAt(0);
@@ -68,10 +107,25 @@ public class SandwichCreator {
 
                 // Choose toasted
                 System.out.println("Do you want it toasted? (Y/N)");
+                System.out.print("Enter your choice: ");
                 char toastedChoice = userChoice.next().charAt(0);
                 boolean toasted = toastedChoice == 'Y' || toastedChoice == 'y';
 
-                System.out.println("Enter your regular toppings (lettuce, peppers, onions, ,tomatoes, jalapenos, cucumbers, pickles, guacamole, mushrooms): ");
+                System.out.println("""
+                                ---------------------------------------------------
+                                Select all the regular toppings you would like (separate by comma):
+                                lettuce
+                                peppers
+                                onions
+                                tomatoes
+                                jalapenos
+                                cucumbers
+                                pickles
+                                guacamole
+                                mushrooms
+                                ----------------------------------------------------
+                                """);
+                System.out.print("Enter your choice: ");
                 userChoice.nextLine();
                 String regularToppingsInput = userChoice.nextLine();
                 String[] regularToppingsArray = regularToppingsInput.split(",");
@@ -81,8 +135,20 @@ public class SandwichCreator {
                 }
 
                 // Choose sauces
-                System.out.println("Enter your sauces (mayo, mustard, ketchup, aioli, ranch, thousand island, vinaigrette, au jus):");
-                userChoice.nextLine();
+                System.out.println("""
+                        --------------------------
+                        Select your sauces (separate by comma):
+                        mayo
+                        mustard
+                        ketchup
+                        aioli
+                        ranch
+                        thousand island
+                        vinaigrette
+                        au jus
+                        --------------------------
+                        """);
+                System.out.print("Enter your choice: ");
                 String saucesInput = userChoice.nextLine();
                 String[] saucesArray = saucesInput.split(",");
                 ArrayList<String> sauces = new ArrayList<>();

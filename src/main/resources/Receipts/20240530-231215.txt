@@ -1,0 +1,2 @@
+Sandwich: WHITEMEDIUM[steak][][swiss][]true[lettuce][mayo], Price: 10.05
+Total Price: 10.05

@@ -1,12 +1,16 @@
 package com.pluralsight;
-import java.util.ArrayList;
 
 enum ChipSize {
     SMALL, MEDIUM, LARGE
 }
+
+enum ChipType {
+    REGULAR, BBQ, SOURCREAM
+}
 public class Chips {
 
     private ChipSize size;
+    private ChipType type;
 
     public double calculateChipPrice() {
         double baseChipPrice = 1.50;
@@ -32,11 +36,20 @@ public class Chips {
         this.size = size;
     }
 
+    public ChipType getType() {
+        return this.type;
+    }
+
+    public void setType(ChipType type) {
+        this.type = type;
+    }
+
     @Override
     public String toString() {
         StringBuilder output = new StringBuilder();
         output.append("\nChip Order Summary:");
         output.append("\nSize: " + getSize());
+        output.append("\nType: " + getType());
         output.append("Total Price: $" + calculateChipPrice());
         return output.toString();
     }

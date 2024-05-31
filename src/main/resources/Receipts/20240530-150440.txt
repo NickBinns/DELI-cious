@@ -1,0 +1,4 @@
+Sandwich: WRAPLARGE[steak][steak][][]true[lettuce, peppers, onions][aioli, ranch], Price: 13.05
+Drink: SpriteSMALL, Price: 2.0
+Chips: SMALL, Price: 1.5
+Total Price: 16.55

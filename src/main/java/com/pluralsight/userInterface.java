@@ -68,7 +68,21 @@ public class userInterface {
                     break;
                 case 4:
                     Checkout.displayOrder(order);
-                    userInput.nextLine();
+                    System.out.println("""
+                        Confirm order above:
+                        1. Checkout
+                        2. Cancel
+                        """);
+                    System.out.print("Enter a option:");
+                    int confirm = userInput.nextInt();
+
+                    if (confirm == 1) {
+                        Checkout.saveReceipt(order);
+                    } else if (confirm == 2) {
+                      HomeScreen();
+                    } else {
+                        System.out.print("Error!");
+                    }
                     break;
 
                 case 0:

@@ -7,7 +7,8 @@ import java.time.format.DateTimeFormatter;
 
 public class Checkout {
 
-    public static void displayOrder (Order order) {
+    //Creates receipt file and saves to folder
+    public static void saveReceipt (Order order) {
 
         DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyyMMdd-HHmmss");
         LocalDateTime receiptDate = LocalDateTime.now();
@@ -18,7 +19,6 @@ public class Checkout {
 
             FileWriter receiptWriter = new FileWriter(directoryPath);
             receiptWriter.write(order.toString());
-            receiptWriter.close();
             System.out.println("Order details saved to receipts");
             receiptWriter.close();
         } catch (IOException e) {
@@ -28,4 +28,8 @@ public class Checkout {
 
     }
 
+    //Displays order to user for confirmation
+    public static void displayOrder (Order order) {
+        System.out.print(order.toString());
+    }
 }
